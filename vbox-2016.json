@@ -28,6 +28,7 @@
   "provisioners": [
     {
       "type": "chef-solo",
+      "chef_license": "accept-silent",
       "cookbook_paths": ["cookbooks", "vendor/cookbooks"],
       "guest_os_type": "windows",
       "run_list": [
@@ -56,6 +57,7 @@
     },
     {
       "type": "chef-solo",
+      "chef_license": "accept-silent",
       "remote_cookbook_paths": [
         "c:/windows/temp/packer-chef-solo/cookbooks-0",
         "c:/windows/temp/packer-chef-solo/cookbooks-1"
